@@ -56,6 +56,10 @@ Una vez que tenemos claros qué es un mutante y cómo lo capturamos, vamos a pro
 No penséis que esta es la forma más optima de ejecutar Mutation Testing, solo es para entender qué pasa por detrás de la librería que veremos a continuación.
 ```
 
+Si hay algún error al ejecutar la GA porque `Error: Resource not accessible by integration`
+
+ver si aqui https://github.com/isamadrid90/solution-workshop-mutation-testing/settings/actions en workflows esta read and write permissions marcado
+
 ### Mutante 1
 
 Cambia en la clase `Main` la línea 7, donde comienza el while por el siguiente código y ejecuta los test
