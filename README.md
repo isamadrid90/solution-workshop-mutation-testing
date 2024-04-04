@@ -160,3 +160,7 @@ Con esto, cada vez que se ejecute esta pipeline se dejará un comentario en la p
 se subirá el informe en html completo como artifact que estará accesible en el resumen de la ejecución,
 disponible desde la pestaña Actions del repositorio de GitHub, pinchando en una ejecución en concreto.
 
+Si hay algún error al ejecutar la GA porque `Error: Resource not accessible by integration`
+
+ver si aqui https://github.com/isamadrid90/solution-workshop-mutation-testing/settings/actions en workflows esta read and write permissions marcado
+
