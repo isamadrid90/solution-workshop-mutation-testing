@@ -1,1 +1,1 @@
-rootProject.name = "workshop-mutation-testing-es"
+rootProject.name = "solution-workshop-mutation-testing-es"
